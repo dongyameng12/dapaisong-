@@ -1,0 +1,24 @@
+* {
+  touch-action: pan-y;
+}
+html,
+body {
+  background-color: #ff8a00;
+  height: 100%;
+  /* 遮罩层 */
+}
+html section.page > div:nth-child(1),
+body section.page > div:nth-child(1) {
+  width: 7.5rem;
+  height: 4rem;
+  background: url(../images/fu_01.png) no-repeat center center;
+  background-size: cover;
+}
+html section.mask,
+body section.mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 100;
+}
