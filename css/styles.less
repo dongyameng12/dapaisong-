@@ -10,6 +10,165 @@ html,body{
                     background: url(../images/fu_01.png) no-repeat center center;
                     background-size: cover;
                 }
+                &:nth-child(2){
+                    width: 7.5rem;
+                    height: 2.7rem;
+                    background: url(../images/fu_02.png) no-repeat center center;
+                    background-size: cover; 
+                    position: relative;
+                    top: -1px;
+                }
+                &:nth-child(3){
+                    width:7.5rem;
+                    height:6.5rem ;
+                    background: url(../images/fu_07.png) no-repeat center center;
+                    background-size: cover; 
+                    position: relative;
+                    top: -2px;
+                    >div{
+                        position: absolute;
+                        top: 2.17rem;
+                        left: 0;
+                        right: 0;
+                        margin: auto;
+                        display: flex;
+                        justify-content: center;
+                        width: 6.9rem;
+                        align-items: center;
+                        >div{
+                            width: 2.87rem;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            >img{
+                                width: 2.77rem;
+                                height: 2.75rem;
+                            }
+                            >div{
+                                &.btn{
+                                    width: 2.39rem;
+                                    height: 0.85rem;
+                                    background: url(../images/fu_06.png) center no-repeat;
+                                    background-size: cover;
+                                }
+                                &.btnAll{
+                                    width: 2.39rem;
+                                    height: 0.85rem;
+                                    background: url(../images/fu_06_01.png) center no-repeat;
+                                    background-size: cover;  
+                                }
+                            }
+                        }
+                        >img{
+                            width: .85rem;
+                            height: .86rem;
+                        }
+                    }
+                }
+                &:nth-child(4){
+                    width: 6.82rem;
+                    height: 8.04rem;
+                    overflow-y: hidden;
+                    background: url(../images/fu_08.png) no-repeat center center;
+                    background-size: cover;
+                    margin: 0.4rem auto;
+                    >ul{
+                        padding-left: 0.75rem;
+                        padding-right: .2rem;
+                        box-sizing: border-box;
+                        margin-top: 1.16rem;
+                        height: 80%;
+                        overflow-y: auto;
+                        >li{
+                            font-size: 0.28rem;
+                            text-indent: -2em;
+                            line-height: 0.46rem;
+                            text-align: justify;
+                            >span{
+                                display: inline-block;
+                                width: 1em;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        // 弹窗
+        section.pop{
+            display: none;
+            font-size: 0.34rem;
+            position: fixed;
+            top: 1.2rem;
+            left: 0;
+            right: 0;
+            z-index: 201;
+            width: 6.53rem;
+            height: 7.59rem;
+            border-radius: 0.1rem;
+            margin: auto;
+            >div{
+                &:nth-child(1){
+                    width: 6.53rem;
+                    &.backOne{
+                        height: 7.28rem;
+                        background: url(../images/fu_10_01.png) no-repeat center center;
+                        background-size: cover;
+                    }
+                    &.backTwo{
+                        height: 7.18rem;
+                        background: url(../images/fu_10_06.png) no-repeat center center;
+                        background-size: cover;
+                    }
+                    >div{
+                        position: absolute;
+                        left: 1.16rem;
+                        top: 3.88rem;
+                        font-size: .28rem;
+                        color: #ff4a4a;
+                        >div{
+                            &:nth-child(1){
+                                >p{
+                                    line-height: .5rem;
+                                    &:nth-child(3){
+                                        text-indent: 4em;
+                                    }
+                                }
+                            }
+                            &:nth-child(2){
+                                width: 4.45rem;
+                                display: flex;
+                                justify-content: space-between;
+                                margin: .47rem auto 0;
+                                >div{
+                                    &:nth-child(1){
+                                        width: 1.76rem;
+                                        height: .94rem;
+                                        background: url(../images/fu_10_03.png) no-repeat;
+                                        background-size: cover;
+                                    }
+                                    &:nth-child(2){
+                                        width: 1.76rem;
+                                        height: .94rem;
+                                        background: url(../images/fu_10_04.png) no-repeat;
+                                        background-size: cover;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                &:nth-child(2){
+                    width: .65rem;
+                    height: .65rem;
+                    background: url(../images/fu_10_05.png) no-repeat;
+                    background-size: cover;
+                    position: relative;
+                    left: 0;
+                    top: .25rem;
+                    right: 0;
+                    margin: auto;
+                }
+                
             }
         }
         /* 遮罩层 */
